@@ -64,18 +64,18 @@ jobs:
           git clone https://github.com/LuttyYang/luci-theme-material.git
           git clone https://github.com/apollo-ng/luci-theme-darkmatter.git
           # 以下为第三方插件
-          git clone https://github.com/openwrt-develop/luci-app-koolproxy.git
-          git clone https://github.com/kuoruan/luci-app-kcptun.git
-          git clone https://github.com/frainzy1477/luci-app-clash.git
-          git clone https://github.com/techotaku/luci-app-transparent-proxy.git
-          git clone https://github.com/honwen/luci-app-aliddns.git
-          git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
-          git clone https://github.com/wolandmaster/luci-app-rtorrent.git
+          # git clone https://github.com/openwrt-develop/luci-app-koolproxy.git
+          # git clone https://github.com/kuoruan/luci-app-kcptun.git
+          # git clone https://github.com/frainzy1477/luci-app-clash.git
+          # git clone https://github.com/techotaku/luci-app-transparent-proxy.git
+          # git clone https://github.com/honwen/luci-app-aliddns.git
+          # git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
+          # git clone https://github.com/wolandmaster/luci-app-rtorrent.git
           git clone https://github.com/tzxiaozhen88/luci-app-koolproxyR.git
           git clone https://github.com/AlexZhuo/luci-app-shadowsocksR.git
           git clone https://github.com/giaulo/luci-app-filebrowser.git
-          git clone https://github.com/AlexZhuo/luci-app-pdnsd.git
-          git clone https://github.com/KunTengRom/luci-app-apfree_wifidog.git
+          # git clone https://github.com/AlexZhuo/luci-app-pdnsd.git
+          # git clone https://github.com/KunTengRom/luci-app-apfree_wifidog.git
           # 以下为第三方软件包
           # git clone https://github.com/softwaredownload/openwrt-fanqiang.git
           # git clone https://github.com/MaartenBaert/ssr.git
@@ -225,18 +225,18 @@ jobs:
           CONFIG_PACKAGE_luci-app-xlnetacc=y
           CONFIG_PACKAGE_luci-app-zerotier=y
           # 以下为第三方
-          CONFIG_PACKAGE_luci-app-koolproxy=y
-          CONFIG_PACKAGE_luci-app-kcptun=y
-          CONFIG_PACKAGE_luci-app-clash=y
-          CONFIG_PACKAGE_luci-app-transparent-proxy=y
-          CONFIG_PACKAGE_luci-app-aliddns=y
-          CONFIG_PACKAGE_luci-app-adguardhome=y
+          # CONFIG_PACKAGE_luci-app-koolproxy=y
+          # CONFIG_PACKAGE_luci-app-kcptun=y
+          # CONFIG_PACKAGE_luci-app-clash=y
+          # CONFIG_PACKAGE_luci-app-transparent-proxy=y
+          # CONFIG_PACKAGE_luci-app-aliddns=y
+          # CONFIG_PACKAGE_luci-app-adguardhome=y
           CONFIG_PACKAGE_luci-app-rtorrent=y
           CONFIG_PACKAGE_luci-app-koolproxyR=y
           CONFIG_PACKAGE_luci-app-shadowsocksR=y
-          CONFIG_PACKAGE_luci-app-filebrowser=y
-          CONFIG_PACKAGE_luci-app-pdnsd=y
-          CONFIG_PACKAGE_luci-app-apfree_wifidog=y
+          # CONFIG_PACKAGE_luci-app-filebrowser=y
+          # CONFIG_PACKAGE_luci-app-pdnsd=y
+          # CONFIG_PACKAGE_luci-app-apfree_wifidog=y
           EOF
 
           # LuCI主题:
